@@ -14,15 +14,6 @@ const numeros = newArray([-4, -3, -2, -1, 0, 1, 2, 3, 4, 5]);
  */
 const totalNumeros =
     numeros
-        .map(n => {
-            console.log(`map1: Math.abs(${n})`)
-            return Math.abs(n);
-        })
-        .map(n => {
-            console.log(`map2: ${n} * 100`)
-            return n * 100;
-
-        })
         .length;
 
 console.log(`JS -> Tamanho do vetor: ${numeros.length}`);
