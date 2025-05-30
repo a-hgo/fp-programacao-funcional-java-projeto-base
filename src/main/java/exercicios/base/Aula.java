@@ -11,6 +11,7 @@ import java.util.List;
  * @author Manoel Campos
  */
 public abstract class Aula {
+    // esta seed retira a aleatoriedade do generator, garantindo previsibilidade para os testes
     public static final long DEFAULT_SEED = 3463245213L;
     protected static final int TOTAL_ESTUDANTES = 30;
     public final StudentGenerator generator;
